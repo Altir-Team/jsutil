@@ -13,5 +13,4 @@ let utils = {
     eval: require('./other/eval')
 }
 
-typeof module == undefined? window.jsutil = utils: module.exports = utils;
-
+module.exports = utils;
